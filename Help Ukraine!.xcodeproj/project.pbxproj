@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49122C2727FA102E007F5353 /* TwitterWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49122C2627FA102E007F5353 /* TwitterWebViewController.swift */; };
+		492AB33427EAD69200664D9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AB33327EAD69200664D9E /* AppDelegate.swift */; };
+		492AB33627EAD69200664D9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AB33527EAD69200664D9E /* SceneDelegate.swift */; };
+		492AB33B27EAD69200664D9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492AB33927EAD69200664D9E /* Main.storyboard */; };
+		492AB33E27EAD69200664D9E /* Help_Ukraine_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 492AB33C27EAD69200664D9E /* Help_Ukraine_.xcdatamodeld */; };
+		492AB34027EAD69400664D9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492AB33F27EAD69400664D9E /* Assets.xcassets */; };
+		492AB34327EAD69400664D9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492AB34127EAD69400664D9E /* LaunchScreen.storyboard */; };
+		492AB35A27ED4F4C00664D9E /* LatestNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AB35927ED4F4C00664D9E /* LatestNewsViewController.swift */; };
+		492AB35E27ED595800664D9E /* LatestNewsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AB35D27ED595800664D9E /* LatestNewsAPI.swift */; };
+		492AB36227ED734900664D9E /* DonationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AB36127ED734900664D9E /* DonationsViewController.swift */; };
+		492AB36627ED983300664D9E /* DonationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AB36527ED983300664D9E /* DonationsTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49122C2627FA102E007F5353 /* TwitterWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterWebViewController.swift; sourceTree = "<group>"; };
+		492AB33027EAD69200664D9E /* Help Ukraine!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Help Ukraine!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		492AB33327EAD69200664D9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		492AB33527EAD69200664D9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		492AB33A27EAD69200664D9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		492AB33D27EAD69200664D9E /* Help_Ukraine_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Help_Ukraine_.xcdatamodel; sourceTree = "<group>"; };
+		492AB33F27EAD69400664D9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		492AB34227EAD69400664D9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		492AB34427EAD69400664D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492AB35927ED4F4C00664D9E /* LatestNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestNewsViewController.swift; sourceTree = "<group>"; };
+		492AB35D27ED595800664D9E /* LatestNewsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestNewsAPI.swift; sourceTree = "<group>"; };
+		492AB36127ED734900664D9E /* DonationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationsViewController.swift; sourceTree = "<group>"; };
+		492AB36527ED983300664D9E /* DonationsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationsTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		492AB32D27EAD69200664D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49122C2327FA0FBD007F5353 /* TwitterVC */ = {
+			isa = PBXGroup;
+			children = (
+				49122C2627FA102E007F5353 /* TwitterWebViewController.swift */,
+			);
+			path = TwitterVC;
+			sourceTree = "<group>";
+		};
+		492AB32727EAD69200664D9E = {
+			isa = PBXGroup;
+			children = (
+				492AB33227EAD69200664D9E /* Help Ukraine! */,
+				492AB33127EAD69200664D9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		492AB33127EAD69200664D9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				492AB33027EAD69200664D9E /* Help Ukraine!.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		492AB33227EAD69200664D9E /* Help Ukraine! */ = {
+			isa = PBXGroup;
+			children = (
+				49122C2327FA0FBD007F5353 /* TwitterVC */,
+				492AB35027EAD6CD00664D9E /* Storyboards */,
+				492AB34F27EAD6C700664D9E /* Models  */,
+				492AB36A27ED98D500664D9E /* DonationsVC */,
+				492AB36B27ED98F000664D9E /* LatestNewsVC */,
+				492AB34D27EAD6B600664D9E /* Helpers */,
+				492AB34A27EAD6A000664D9E /* Resources */,
+			);
+			path = "Help Ukraine!";
+			sourceTree = "<group>";
+		};
+		492AB34A27EAD6A000664D9E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				492AB33327EAD69200664D9E /* AppDelegate.swift */,
+				492AB33527EAD69200664D9E /* SceneDelegate.swift */,
+				492AB33F27EAD69400664D9E /* Assets.xcassets */,
+				492AB34427EAD69400664D9E /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		492AB34D27EAD6B600664D9E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		492AB34F27EAD6C700664D9E /* Models  */ = {
+			isa = PBXGroup;
+			children = (
+				492AB33C27EAD69200664D9E /* Help_Ukraine_.xcdatamodeld */,
+				492AB35D27ED595800664D9E /* LatestNewsAPI.swift */,
+			);
+			path = "Models ";
+			sourceTree = "<group>";
+		};
+		492AB35027EAD6CD00664D9E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				492AB33927EAD69200664D9E /* Main.storyboard */,
+				492AB34127EAD69400664D9E /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		492AB36A27ED98D500664D9E /* DonationsVC */ = {
+			isa = PBXGroup;
+			children = (
+				492AB36527ED983300664D9E /* DonationsTableViewCell.swift */,
+				492AB36127ED734900664D9E /* DonationsViewController.swift */,
+			);
+			path = DonationsVC;
+			sourceTree = "<group>";
+		};
+		492AB36B27ED98F000664D9E /* LatestNewsVC */ = {
+			isa = PBXGroup;
+			children = (
+				492AB35927ED4F4C00664D9E /* LatestNewsViewController.swift */,
+			);
+			path = LatestNewsVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		492AB32F27EAD69200664D9E /* Help Ukraine! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 492AB34727EAD69400664D9E /* Build configuration list for PBXNativeTarget "Help Ukraine!" */;
+			buildPhases = (
+				492AB32C27EAD69200664D9E /* Sources */,
+				492AB32D27EAD69200664D9E /* Frameworks */,
+				492AB32E27EAD69200664D9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Help Ukraine!";
+			productName = "Help Ukraine!";
+			productReference = 492AB33027EAD69200664D9E /* Help Ukraine!.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		492AB32827EAD69200664D9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					492AB32F27EAD69200664D9E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 492AB32B27EAD69200664D9E /* Build configuration list for PBXProject "Help Ukraine!" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 492AB32727EAD69200664D9E;
+			productRefGroup = 492AB33127EAD69200664D9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				492AB32F27EAD69200664D9E /* Help Ukraine! */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		492AB32E27EAD69200664D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492AB34327EAD69400664D9E /* LaunchScreen.storyboard in Resources */,
+				492AB34027EAD69400664D9E /* Assets.xcassets in Resources */,
+				492AB33B27EAD69200664D9E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		492AB32C27EAD69200664D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492AB36227ED734900664D9E /* DonationsViewController.swift in Sources */,
+				49122C2727FA102E007F5353 /* TwitterWebViewController.swift in Sources */,
+				492AB36627ED983300664D9E /* DonationsTableViewCell.swift in Sources */,
+				492AB35E27ED595800664D9E /* LatestNewsAPI.swift in Sources */,
+				492AB33E27EAD69200664D9E /* Help_Ukraine_.xcdatamodeld in Sources */,
+				492AB33427EAD69200664D9E /* AppDelegate.swift in Sources */,
+				492AB35A27ED4F4C00664D9E /* LatestNewsViewController.swift in Sources */,
+				492AB33627EAD69200664D9E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		492AB33927EAD69200664D9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				492AB33A27EAD69200664D9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		492AB34127EAD69400664D9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				492AB34227EAD69400664D9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		492AB34527EAD69400664D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		492AB34627EAD69400664D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		492AB34827EAD69400664D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5HQJSJD5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Help Ukraine!/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Erik.Help-Ukraine-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		492AB34927EAD69400664D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5HQJSJD5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Help Ukraine!/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Erik.Help-Ukraine-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		492AB32B27EAD69200664D9E /* Build configuration list for PBXProject "Help Ukraine!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				492AB34527EAD69400664D9E /* Debug */,
+				492AB34627EAD69400664D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		492AB34727EAD69400664D9E /* Build configuration list for PBXNativeTarget "Help Ukraine!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				492AB34827EAD69400664D9E /* Debug */,
+				492AB34927EAD69400664D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		492AB33C27EAD69200664D9E /* Help_Ukraine_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				492AB33D27EAD69200664D9E /* Help_Ukraine_.xcdatamodel */,
+			);
+			currentVersion = 492AB33D27EAD69200664D9E /* Help_Ukraine_.xcdatamodel */;
+			path = Help_Ukraine_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 492AB32827EAD69200664D9E /* Project object */;
+}
